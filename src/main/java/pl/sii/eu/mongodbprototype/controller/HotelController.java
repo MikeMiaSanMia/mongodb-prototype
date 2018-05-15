@@ -21,12 +21,12 @@ public class HotelController {
         return hotelRepository.findAll();
     }
 
-    @PostMapping
+    @PutMapping("/insert")
     public void insert(@RequestBody Hotel hotel) {
         hotelRepository.insert(hotel);
     }
 
-    @PutMapping
+    @PostMapping("/update")
     public void update(@RequestBody Hotel hotel) {
         hotelRepository.save(hotel);
     }
