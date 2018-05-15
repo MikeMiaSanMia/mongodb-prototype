@@ -1,1 +1,1 @@
-Project using Spring Boot with NoSQL database - MongoDB in Java technology.
+Project using Spring Boot with NoSQL database - MongoDB in Java technology. Additionaly it has 2 databases SQL and NoSQL running at the same time: H2 and MongoDB. In H2 Users of applications can be stored. In MongoDB Hotels with Addresses and Reviews are provided.
