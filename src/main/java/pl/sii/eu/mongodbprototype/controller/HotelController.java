@@ -31,4 +31,8 @@ public class HotelController {
         hotelRepository.save(hotel);
     }
 
+    @GetMapping("/{name}")
+    public Hotel getByName(@PathVariable("name") String name) {
+        return hotelRepository.findByName(name);
+    }
 }

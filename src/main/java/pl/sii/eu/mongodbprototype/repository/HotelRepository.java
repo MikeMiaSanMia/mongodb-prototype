@@ -6,5 +6,5 @@ import pl.sii.eu.mongodbprototype.document.Hotel;
 
 @Repository
 public interface HotelRepository extends MongoRepository<Hotel, String> {
-
+    Hotel findByName(String name);
 }
